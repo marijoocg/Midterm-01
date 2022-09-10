@@ -1,0 +1,182 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    background-color: rgb(254, 249, 249);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #4c545d;
+    font-weight: 400, 600;}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #4c545d;
+    font-weight: 400, 600;
+}
+h3 {
+    font-size: 20px;
+    color: #4c545d;
+    font-weight: 400, 600;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #9fabb2;
+    font-weight: 400, 600;
+}
+
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+}
+a:hover{
+    color: black;
+    background-color: transparent;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.button1 {
+    background-color: #26baa4 ;
+    border-radius: 70px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    margin-left: 470px;
+}
+
+.button2 {
+    background-color: #6173ff;
+    border-radius: 70px;
+}
+
+.propiedad1{
+    width: 500px;
+    height: 450px;
+    margin-left: 750px;
+    text-align: left;
+    margin-top: -450px;  
+}
+.propiedad2{
+    width: 500px;
+    height: 450px;
+    margin-left: 750px;
+    text-align: left;
+    margin-top: -325px;  
+}
+.propiedad3{
+    width: 500px;
+    height: 450px;
+    margin-left: 750px;
+    text-align: left;
+    margin-top: -325px;   
+    margin-bottom:-100px;
+}
+
+.compu{
+    width: 650px;
+    height: auto;
+    text-align: center;
+    margin-top:50px;
+}
+
+.tool1{
+    width: 500px;
+    height: 450px;
+    margin-left: 5px;
+    text-align: center; 
+    margin-top: 80px;
+}
+.tool2{
+    width: 500px;
+    height: 450px;
+    margin-left: 380px;
+    text-align: center;
+    margin-top: -440px;  
+}
+.tool3{
+    width: 500px;
+    height: 450px;
+    margin-left: 750px;
+    text-align: center;
+    margin-top: -450px;   
+}
+
+.google{
+    width:161px;
+    height: 35px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: -120px;
+    margin-bottom: 80px;
+}
+.ibm{
+    width:139px;
+    height: 35px;
+    text-align: center;
+    margin-left: 351px;
+    margin-top: -120px;
+    margin-bottom: 80px;
+}
+.microsoft{
+    width:161px;
+    height: 35px;
+    text-align: center;
+    margin-left: 561px;
+    margin-top: -110px;
+    margin-bottom: 80px;
+}
+.hewlett{
+    width:135px;
+    height: 56px;
+    text-align: center;
+    margin-left: 791px;
+    margin-top: -130px;
+    margin-bottom: 80px;
+}
+.vector{
+    width:125px;
+    height: 30px;
+    text-align: center;
+    margin-left: 991px;
+    margin-top: -130px;
+    margin-bottom: 200px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #f1f1f1;
+    height: 250px;
+}
+
+.logo{
+    width:50px; 
+    height:auto;
+    position: relative; 
+    margin-left: 150px;
+    padding: 50px;
+    text-align: center;
+}
+.links{
+    width: 200px;
+    height: 40px;
+    text-align: left;
+}
