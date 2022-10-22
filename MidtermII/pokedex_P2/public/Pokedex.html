@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap" rel="stylesheet">
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="images/pokeball-icon.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <title>Pokedex</title>
+</head>
+<body style="background-color: #f0dba4;">
+    
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Pokedex.html">
+        <img src="images/pokeball-icon.png" alt="Pokeball" width="30" height="30" class="d-inline-block align-text-top">
+        <p class="titlePoke">Pokedex</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="indexberries.html">Berries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Pokemon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="indexitems.html">Items</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <!--GRID-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <!--CARD-->
+        <div class="card" style="width: 18rem;">
+            <img src="images/berrybasket.png" class="card-img-top" alt="berries">
+            <div class="card-body">
+              <h5 class="card-title">Berries</h5>
+              <p class="card-text">Berries are small, juicy, fleshy fruit. 
+                They've become critical held items in battle, 
+                where their various effects include HP and status condition restoration</p>
+              <a href="indexberries.html" class="btn btn-danger" style="color:white">Search Berries</a>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <!--CARD-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/pokemones.jpg" class="card-img-top" alt="berries">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon</h5>
+            <p class="card-text">
+              Pokémon can be caught, trained, and used in battles and other activities. 
+              The bond between Trainers and their Pokémon is often the key to success.</p>
+            <a href="index.html" class="btn btn-danger" style="color:white">Search Pokemon</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <!--CARD-->
+        <div class="card" style="width: 18rem;">
+          <img src="images/items.png" class="card-img-top" alt="items">
+          <div class="card-body">
+            <h5 class="card-title">Items</h5>
+            <p class="card-text">An item is an object that the player can pick up, 
+              keep, and use in some manner. They have various uses, like healing, powering up, or helping the player.
+            </p>
+            <a href="indexitems.html" class="btn btn-danger" style="color:white">Search Items</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+
+
+
+</body>
+</html>

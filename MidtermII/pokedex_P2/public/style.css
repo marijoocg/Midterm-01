@@ -1,0 +1,159 @@
+
+h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 150%;
+}
+
+p{
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+}
+
+a:link, a:visited {
+    font-family: 'Saira', sans-serif;
+    background-color: none;
+    color: black;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    color: #c04c4c;
+  }
+
+.titlePoke{
+    font-family: 'Press Start 2P', sans-serif;
+    display:inline;
+    color: #c04c4c;
+}
+
+.title{
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    
+    color: #464646;
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.subtitle{
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(186, 15%, 59%);
+}
+
+.subtitle2{
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    padding-left: 5px;
+    font-size: 30px;
+    color: hsl(0, 0%, 0%);
+}
+
+.little_text{
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 13px;
+    color: hsl(0, 0%, 0%);
+}
+
+
+.btn{
+    /*background-color: red;*/
+    color: white;
+    margin-top: 2%;
+    
+}
+
+.col-4{
+    background-color: rgb(213, 212, 212);
+    border-radius: 15px;
+    text-align: center justify;
+    padding-top: 1%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.borderr{
+    border: none;
+    border-radius: 15px;
+    /*background-color: hsl(183, 100%, 15%);*/
+    /*background-image: url("images/pokeshadow.png");*/
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+}
+
+.borderg{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+}
+
+.inputc{
+    height: 30px;
+    width: 120px;
+}
+
+.not-found {
+    display: none; 
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.abilities{
+    font-size: 20px;
+    color: #c04c4c;
+    font-weight: 500;
+}
+
+.experience{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#progressBar {
+    width: Experience;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 0.3rem solid #6da3bb;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#progressBarFull {
+    height: 48px;
+    background-color: #6da3bb;
+    width: 0%;
+    border-radius: 10px;
+    margin-top: -3px;
+}
+
+.card{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.card-title{
+    font-family: "Saira", sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+}
